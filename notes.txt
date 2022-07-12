@@ -1,0 +1,11 @@
+Ch 1: Building Blocks
+
+In terminal:
+
+javac: compiles java files into .class bytecode
+
+java: executes program
+
+jar: packages files tg
+
+javadoc: generates documentation
