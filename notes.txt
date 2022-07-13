@@ -1,5 +1,6 @@
 Ch 1: Building Blocks
 
+-------------------------------------------------------------------------------
 In terminal:
 
 javac: compiles java files into .class bytecode
@@ -9,3 +10,125 @@ java: executes program
 jar: packages files tg
 
 javadoc: generates documentation
+
+------------------------------------------------------------------------------
+Fields & Methods
+
+Fields - are basically variables
+
+Methods - usually uses variables in order to execute a process
+
+-------------------------------------------------------------------------------
+Comments
+
+1st Type: Single Line comment "//"
+
+2nd Type: Multi-line comment "/* */"
+
+3rd Type: Javadoc comment --> Likely won't be on exam, but the Format is as follows:
+/*
+ * Usually has a format that is followed here
+ *
+ */
+
+-------------------------------------------------------------------------------
+Classes and Source Files
+
+- each source file can only have ONE public class, any other class is private
+
+- the public class determines the name of the source file
+
+-------------------------------------------------------------------------------
+Main Method
+
+syntax:
+
+    public static void main(String[] args) {
+        ...
+    }
+
+-------------------------------------------------------------------------------
+Passing parameters to Java Program
+
+In terminal:
+
+1. cd to directory your source file is
+
+2. javac the .java file to turn into bytecode
+
+3. java [class_name] and param for the class
+
+-------------------------------------------------------------------------------
+Package Declarations & Imports
+
+- must import the specific class everytime we want a specific class to be used
+
+-------------------------------------------------------------------------------
+Wildcards
+
+- Classes in same package that are imported together, uses syntax of * at the end
+
+-------------------------------------------------------------------------------
+Creating New Packages
+
+- create new package, and add classes wanted there
+
+- if you want to access the classes in the package created above from another class in
+  another package, then import that first package and class path!
+
+-------------------------------------------------------------------------------
+Compiling Bytecode to Another Directory
+
+- when using javac on a specific .java file to compile the file to bytecode, the bytecode is directly sent to the same file as the source file
+
+- in order to combat this issue, then use javac -d in order to create another file to store bytecode
+
+-------------------------------------------------------------------------------
+Important javac options
+
+- javac -cp <classpath>  || Location of classes needed to compile the program
+
+- javac -d <dir> || directory in which to place generated class files
+
+Important java options
+
+- java -cp || Location of classes needed to run the program
+
+-------------------------------------------------------------------------------
+Compiling JAR files (JavaARchive // Zip file consisting of mainly Java files)
+
+syntax:
+
+    java -cp "<classpath>" packageX.classY
+
+-------------------------------------------------------------------------------
+Creating a JAR file on Terminal
+
+syntax:
+
+    jar -cvf fileName.jar
+
+    ^ cvf = create / verbose / file
+
+In order to change directory where you want to create the JAR file, do:
+
+    jar -cvf fileName.jar -C <dir>
+
+-------------------------------------------------------------------------------
+Order of precedence per Java File:
+
+1. Comments / Header
+
+2. Package
+
+3. Imports
+
+4. Class(es)
+
+5. Fields / Methods
+
+-------------------------------------------------------------------------------
+Creating Objects
+
+
+
