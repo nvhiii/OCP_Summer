@@ -130,5 +130,72 @@ Order of precedence per Java File:
 -------------------------------------------------------------------------------
 Creating Objects
 
+- Calling Constructors:
+
+syntax:
+
+    Park p = new Park();
+
+    ^ Park() is a special method called a constructor which allows for the creation of a class object
+
+-------------------------------------------------------------------------------
+Reading and Writing Member Fields
+
+- usually don't need to create a constructor for a java class, it is because of the default constructor created by java
+
+- therefore, the only thing that is really needed is to instantiate the object in the main method, and set data fields set before the method after the object created
+
+- then to set & read the variable, do objName.varName
+
+-------------------------------------------------------------------------------
+Executing Instance Initializer Blocks
+
+- just check how many closed pairs of curly brackets there are
+
+-------------------------------------------------------------------------------
+Following the order of Initialization
+
+- Fields and Blocks are read in 1st
+
+- Then constructors
+
+- Then main method
+
+-------------------------------------------------------------------------------
+Understanding Data Types
+
+1. Primitive Types
+
+- boolean
+
+- byte
+
+- short
+
+- int
+
+- long
+
+- float
+
+- double
+
+- char
+
+** String is not a primitive type
+
+-------------------------------------------------------------------------------
+Writing Literals
+
+- need to understand the syntax per literal data type
+
+Literals and the Underscore Char
+
+- You can utilize underscore in place of commas in code
+
+-------------------------------------------------------------------------------
+Using Reference Types
+
+- 
 
 
