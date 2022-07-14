@@ -288,6 +288,16 @@ Inferring the Type with var
 
 ^ this in turn leads to a process called local variable type inference
 
+- local variable vs global variable
+    ^ var can only be used with local variables, which are variables within fxn scope
 
+Type Inference of var
+
+- while using var as a substitute for a data type, it must be initialized to a value, or it won't compile!
+
+-------------------------------------------------------------------------------
+Managing Variable Scope
+
+- 
 
 
