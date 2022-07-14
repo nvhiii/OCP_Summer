@@ -272,6 +272,22 @@ Initializing Variables
 -------------------------------------------------------------------------------
 Passing Constructor and Method Parameters
 
-- 
+- must initialize fields before passing into other methods where it doesn't exist for a first value
+
+-------------------------------------------------------------------------------
+Defining Instance and Class Variables
+
+Instance variable - this is a variable which refers to singular instance (object of a class)
+
+Class variable - a variable on the class lvl, can be used by all methods and instances
+
+-------------------------------------------------------------------------------
+Inferring the Type with var
+
+- keyword "var" can be used in place of primitive or reference types (local variables)
+
+^ this in turn leads to a process called local variable type inference
+
+
 
 
