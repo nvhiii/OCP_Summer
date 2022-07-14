@@ -196,6 +196,82 @@ Literals and the Underscore Char
 -------------------------------------------------------------------------------
 Using Reference Types
 
+- reference types are basically variables of a certain data type
+
+e.g.
+
+syntax:
+
+    String numOfCats
+
+-------------------------------------------------------------------------------
+Difference between Primitive and Reference Types
+
+- primitive types cannot have methods called upon them
+
+- reference types can have methods called upon them
+
+-------------------------------------------------------------------------------
+Creating Wrapper Classes
+
+- In order to create a wrapper class for a data type, write the reserved keyword
+  for the datatype, but with a capital first letter
+
+- This is useful in order to access the methods available directly under the wrapper class
+
+-------------------------------------------------------------------------------
+Defining Text Blocks
+
+- There is specific syntax for text blocks
+
+_ incidental v. essential whitespace
+
+- there is also certain special characters obtainable through specific syntax
+
+-------------------------------------------------------------------------------
+Declaring variables
+
+syntax:
+
+    dataType varName = dataTypeValue;
+
+-------------------------------------------------------------------------------
+Identifying Identifiers
+
+- There are a lot of rules regarding the naming of identifiers, aka Java var names
+
+- Some words are simply reserved words in java and therefore we cannot set them as variable names
+
+- Other names simply use certain special characters which cannot work in a var name
+
+    e.g.
+    - number to start a varName
+    - other rules to come back to
+
+-------------------------------------------------------------------------------
+Declaring Multiple Variables
+
+- For any given data type, if you wish to declare multiple varNames for the type, there MUST be:
+
+    - comma between the varName (and initialization if there is one)
+    - cannot repeat the data type after every comma, even if it's the same type
+    - no different data types after commas
+    - cannot have a varName without a data type to come before it
+
+-------------------------------------------------------------------------------
+Initializing Variables
+
+1. Creating Local Variables
+
+- Local variables are defined in a constructor, method, or initializer block
+
+2. Uninitialized Local Variables
+
+- uninitialized variables must be given a value before being utilized in another expression / calculation
+
+-------------------------------------------------------------------------------
+Passing Constructor and Method Parameters
+
 - 
 
 
