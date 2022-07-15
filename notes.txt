@@ -295,9 +295,18 @@ Type Inference of var
 
 - while using var as a substitute for a data type, it must be initialized to a value, or it won't compile!
 
+- "var" keyword is usually used in constructors, method parameters, and instance variables in order to trick me
+    ^ illegal to use var keyword in method param, as it isnt a local var
+
+** var keyword can also be used for object initialization!!! **
+
 -------------------------------------------------------------------------------
 Managing Variable Scope
 
-- 
+- param + anything inside the code block of a method variables are in the scope of the given method
+
+- local var can never have a larger scope than the one they are defined within
+
+-
 
 
