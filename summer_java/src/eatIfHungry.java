@@ -15,7 +15,7 @@ public class eatIfHungry {
 
             // ^ take notice that notHungry was defined in a scope within the method, but in a higher hierarchy
             // This means that any smaller scopes can reference more general variables in the scope of the method
-            
+
 
         }
 

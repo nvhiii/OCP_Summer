@@ -307,6 +307,48 @@ Managing Variable Scope
 
 - local var can never have a larger scope than the one they are defined within
 
--
+Helpful code:
+
+- eatIfHungry.java
+
+-------------------------------------------------------------------------------
+Tracing Scope
+
+- Tracing scope should be second nature^, follow the example from previous section
+
+-------------------------------------------------------------------------------
+Applying Scope to Classes
+
+Helpful code:
+
+- Mouse class
+
+-------------------------------------------------------------------------------
+Destroying Objects
+
+- heap: represents large pool of unused memory for java application
+
+- if instantiation keeps happening and is left on the heap, memory will run out and crash is bound
+
+^ Garbage collection is used to combat this
+
+-------------------------------------------------------------------------------
+Garbage Collection
+
+- determining when memory of an object can be reclaimed
+
+^^ doesn't necessarily mean garbage collection will occur instantaneously when memory can be reclaimed
+
+-------------------------------------------------------------------------------
+Tracing Eligibility
+
+How to determine when an object is eligible for garbage collection:
+
+- No reference pointing to object
+
+- All references of object are out of scope
+
+-------------------------------------------------------------------------------
+
 
 
