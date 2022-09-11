@@ -61,7 +61,7 @@ In terminal:
 -------------------------------------------------------------------------------
 Package Declarations & Imports
 
-- must import the specific class everytime we want a specific class to be used
+- must import the specific class every time we want a specific class to be used
 
 -------------------------------------------------------------------------------
 Wildcards
@@ -88,7 +88,7 @@ Important javac options
 
 - javac -cp <classpath>  || Location of classes needed to compile the program
 
-- javac -d <dir> || directory in which to place generated class files
+- javac <java class file> -d <dir> || directory in which to place generated class files
 
 Important java options
 
